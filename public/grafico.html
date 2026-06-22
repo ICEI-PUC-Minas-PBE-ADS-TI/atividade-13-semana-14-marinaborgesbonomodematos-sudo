@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório Frut-Frut - Gráfico</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    
+    <style>
+        
+        *{ margin: 0; padding: 0; box-sizing: border-box; }
+        body{
+            font-family: "Poppins", sans-serif;
+            background-color: #F4E7DE;
+            color: #20492F;
+            min-height: 100vh;
+            padding: 40px;
+        }
+        header{ text-align: center; margin-bottom: 40px; }
+        header h1{ font-size: 3rem; color: #DD3B26; }
+        header p{ margin-top: 10px; font-size: 1.2rem; }
+
+        .chart-container{
+            max-width: 1000px;
+            margin: 0 auto 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        #fruitChart{ width: 100% !important; height: 520px !important; }
+
+        .btn-voltar{
+            display: inline-block; margin-bottom: 25px;
+            background-color: #DD3B26; color: white;
+            padding: 12px 24px; border-radius: 12px;
+            text-decoration: none; font-weight: 600;
+        }
+        .btn-voltar:hover{ transform: scale(1.05); background-color: #c22f1f; }
+
+        
+        .estoque-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        .estoque-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #DD3B26;
+        }
+        select, button {
+            padding: 10px 14px;
+            margin: 5px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .produto-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 15px;
+            background: #f9f9f9;
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+        .btn-estoque {
+            padding: 6px 12px;
+            font-size: 0.9rem;
+        }
+        .quantidade { font-weight: bold; font-size: 1.1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laboratório Frut-Frut</h1>
+        <p>Distribuição das frutas bizarras por categoria</p>
+    </header>
+
+    <div class="chart-container">
+        <a href="index.html" class="btn-voltar">← Voltar para a loja</a>
+        <canvas id="fruitChart"></canvas>
+    </div>
+
+    
+    <div class="estoque-container">
+        <h2>📦 Editor de Estoque</h2>
+        <div id="listaEstoque"></div>
+    </div>
+
+    <script src="/public/assets/scripts/grafico.js"></script>
+</body>
+</html>

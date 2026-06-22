@@ -9,15 +9,17 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações Gerais
 
-- Nome:
-- Matrícula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Marina Borges Bonomo de Matos
+- Matrícula: 907022
+- Proposta de projeto escolhida: e-comerce
+- Breve descrição sobre seu projeto: Uma página de edição e vizualizaçãodo estoque disponível. podendo editar a quantidade de cada produto
 
 **Print da tela com a implementação**
 
 << Coloque aqui uma breve explicação da implementação feita nesta etapa>>
 
-<<  COLOQUE A IMAGEM DA TELA 1 AQUI >>
+<<  TELA 1- antes da adição de produtos ao estoque >>
+![ANTES](/public/assets/imagens/antes.png)
 
-<<  COLOQUE A IMAGEM DA TELA 2 AQUI >>
+<<  TELA2- depois da adiçãode produto no estoque >>
+![DEPOIS](/public/assets/imagens/depois.png)

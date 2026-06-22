@@ -1,18 +1,130 @@
 {
-  "usuarios": [
+  "produtos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "CARANGO",
+      "preco": 16.44,
+      "categoria": "savana",
+      "imagem": "assets/imagens/carango.jpg",
+      "descricao": "De qualidade selvagem, seu sabor é surpreendente para todos que experimentam, prova e diz aí.",
+      "emEstoque": true
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "PIRICATE",
+      "preco": 24.99,
+      "categoria": "passaro",
+      "imagem": "assets/imagens/piricate.jpg",
+      "descricao": "Ótimo para sua voz e saúde, com uma adubação natural, o sabor ressalta o timbre de todas as vozes existentes. Compre e repita.",
+      "emEstoque": true
+    },
+    {
+      "id": 3,
+      "nome": "NEMORANGE",
+      "preco": 30.89,
+      "categoria": "aquatico",
+      "imagem": "assets/imagens/nemorange_.jpg",
+      "descricao": "Um suco natural com uma lembrança do mar, só tome cuidado com a qunatidade, pode causar ataques de riso.",
+      "emEstoque": true
+    },
+    {
+      "id": 4,
+      "nome": "FONANA",
+      "preco": 50.22,
+      "categoria": "aquatico",
+      "imagem": "assets/imagens/fonana.jpg",
+      "descricao": "Podendo chegar até a 1T por penca, a fonana é uma grande fonte de cálcio, com uma doçura sem igual.",
+      "emEstoque": true
+    },
+    {
+      "id": 5,
+      "nome": "LIMONÃO",
+      "preco": 10.88,
+      "categoria": "aquatico",
+      "imagem": "assets/imagens/limonão.jpg",
+      "descricao": "Azedo e assustador, o siciliano perfeito para acompanhamento de peixes... se é que você me entende.",
+      "emEstoque": true
+    },
+    {
+      "id": 6,
+      "nome": "TARTARAYA",
+      "preco": 31.67,
+      "categoria": "aquatico",
+      "imagem": "assets/imagens/tartaraya.jpg",
+      "descricao": "Lenta e leve, um lanchinho relaxante para qualquer momento do seu dia",
+      "emEstoque": false
+    },
+    {
+      "id": 7,
+      "nome": "LEÃOSSEGO",
+      "preco": 19.10,
+      "categoria": "savana",
+      "imagem": "assets/imagens/leaossego.jpg",
+      "descricao": "Macio e fofinho, gostosinho e cheirosinho.",
+      "emEstoque": true
+    },
+    {
+      "id": 8,
+      "nome": "MOCOCO",
+      "preco": 24.30,
+      "categoria": "savana",
+      "imagem": "assets/imagens/mococo.jpg",
+      "descricao": "UH-UH AH-AH",
+      "emEstoque": true
+    },
+    {
+      "id": 9,
+      "nome": "KIWI",
+      "preco": 9.99,
+      "categoria": "passaro",
+      "imagem": "assets/imagens/kiwi.jpg",
+      "descricao": "O azedinho mais fofinho que você pode encontrar, ótimo para cafés da manã e lanches da tarde.",
+      "emEstoque": false
+    },
+    {
+      "id": 10,
+      "nome": "LICANO",
+      "preco": 95.00,
+      "categoria": "passaro",
+      "imagem": "assets/imagens/licano.jpg",
+      "descricao": "Um limão causalmente exótico e de difícil captura, seu bico exala um xeirinho de mousse dos Deuses",
+      "emEstoque": true
+    },
+    {
+      "id": 11,
+      "nome": "PAPRIKA",
+      "preco": 14.66,
+      "categoria": "legumi",
+      "imagem": "assets/imagens/Paprika.jpg",
+      "descricao": "Primeiro lançamento da nossa linha de temperos, a paprika tem um forte poder de temperamento com atuação só com sua presença.",
+      "emEstoque": true
+    },
+    {
+      "id": 12,
+      "nome": "Grorijela",
+      "preco": 12.99,
+      "categoria": "savana",
+      "imagem": "assets/imagens/gorijela.jpg",
+      "descricao": "Leguminosa mais primitiva que você conhece. Dizem até que é encontrada apenas nos galhos mais altos, das árvores mais altas.",
+      "emEstoque": true
+    },
+    {
+      "id": 13,
+      "nome": "ROMICO",
+      "preco": 12.99,
+      "categoria": "savana",
+      "imagem": "assets/imagens/romico.jpg",
+      "descricao": "Com uma tonalidade surpreendente, essa espécie de romã pode chegar a custar milhares de dólares, mas por dua produção expecífica na Amazônia não sofremos com essa inflação, uhhuulllll.",
+      "emEstoque": true
+    },
+    {
+      "id": 14,
+      "nome": "MANGRITO",
+      "preco": 12.80,
+      "categoria": "passaro",
+      "imagem": "assets/imagens/mangrito.jpg",
+      "descricao": "Uma manga totamente livre de fiapos. Perfeita para quem está fungindo de dentes entupidos dessa estressante parte de aproveitar uma manguinha. Só cuidado com as penas, rs",
+      "emEstoque": true
     }
   ]
 }

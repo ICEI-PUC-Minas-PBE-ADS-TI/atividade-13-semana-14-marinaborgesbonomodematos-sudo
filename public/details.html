@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frut-Frut - Detalhes</title>
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="shortcut icon" href="public/assets/imagens/FavIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    
+    <style>
+
+        .details-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .details-image {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .details-image img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .details-info {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .details-info h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #20492F;
+        }
+
+        .details-info .price {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .details-info .description {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .back-btn {
+            display: inline-block;
+            background-color: #DD3B26;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            transition: 0.3s;
+            align-self: flex-start;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .loading-msg {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #20492F;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <main id="details-content">
+        <div class="loading-msg">Carregando detalhes da fruta mutante...</div>
+    </main>
+
+    <script src="/public/assets/scripts/detalhes.js"></script>
+</body>
+</html>
